@@ -1,0 +1,16 @@
+header {
+    background: #f00;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu li {
+    list-style: none;
+    margin: 0 20px 0 0;
+}
