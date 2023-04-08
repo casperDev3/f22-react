@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 // components
 import First from "./components/first/First";
 import Post from "./components/posts/Post";
+import Counter from "./components/counter/Counter";
 
 function App() {
   // reactive variables
@@ -26,6 +27,10 @@ function App() {
   return (
     <div className="App">
       <First />
+      {/* Counter */}
+      <div>
+        <Counter />
+      </div>
       <div
         style={{
           display: "flex",
