@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import cutom style
 import styles from "./Header.module.css";
 
@@ -9,7 +10,9 @@ const Header = () => {
         <div>LOGO</div>
         <nav>
           <ul className={styles.header__menu}>
-            <li>test</li>
+            <li>
+              <Link to="/converter">Converter</Link>
+            </li>
             <li>test</li>
             <li>test</li>
             <li>test</li>
